@@ -1,7 +1,7 @@
 # Boilerplate NodeJS with TypeScript :rainbow: :airplane:
 Basic structure for NodeJS projects with TypeScript :open_file_folder: :paperclip: :octocat: 
 
-[![GitHub license](https://img.shields.io/github/license/mpsdantas/boilerplate-node.svg?style=for-the-badge)](https://github.com/mpsdantas/boilerplate-node/blob/master/LICENSE) [![NPM](https://img.shields.io/badge/npm-v5.6.0-blue.svg?style=for-the-badge)](https://www.npmjs.com/) [![NODE](https://img.shields.io/badge/node-v7.6.0-green.svg?style=for-the-badge?style=popout-square)](https://nodejs.org/en//)
+[![GitHub license](https://img.shields.io/github/license/mpsdantas/boilerplate-node.svg?style=for-the-badge?style=popout-square)](https://github.com/mpsdantas/boilerplate-node/blob/master/LICENSE) [![NPM](https://img.shields.io/badge/npm-v5.6.0-blue.svg?style=for-the-badge?style=popout-square)](https://www.npmjs.com/) [![NODE](https://img.shields.io/badge/node-v7.6.0-green.svg?style=for-the-badge?style=popout-square)](https://nodejs.org/en//)
 
 
 ## Install
