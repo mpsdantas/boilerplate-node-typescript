@@ -7,7 +7,7 @@
 		"test": "jest --no-cache",
 		"start": "nodemon --watch './' --exec \"ts-node server.ts\" -e ts",
 		"build": "tsc",
-		"prod": "npm run build && node ./dist/server.js"
+		"prod": "npm run build && copyfiles --flat ./logs/*.log ./dist/logs/ && copyfiles --flat ./env/*.env ./dist/env/ &&  node ./scripts/build.js && node ./dist/server.js"
 	},
 	"keywords": [],
 	"author": "Marcus Dantas",
@@ -23,6 +23,7 @@
 		"@types/supertest": "2.0.7",
 		"body-parser": "1.18.3",
 		"consign": "0.1.6",
+		"copyfiles": "^2.1.0",
 		"dotenv": "6.2.0",
 		"express": "4.16.4",
 		"jest": "24.1.0",
