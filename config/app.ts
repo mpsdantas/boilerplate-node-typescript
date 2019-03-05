@@ -2,17 +2,21 @@ import "module-alias/register";
 
 import express from "express";
 
+import "reflect-metadata";
+
+import { createExpressServer } from "routing-controllers";
+
 import env from "dotenv";
 
 import bodyParser from "body-parser";
 
 import morgan from "morgan";
 
-import modules from "./projectModules";
-
 import mongoose from "mongoose";
 
-import handleErros from 'utils/erros/handleErros';
+import { HandleErros } from "src/architecture/erros/HandleErros";
+
+import { WelcomeController } from "modules/welcome/controllers/WelcomeController";
 
 const [major, minor] = process.versions.node.split(".").map(parseFloat);
 
@@ -31,7 +35,11 @@ env.config({
 	path: environment !== "prod" ? "./env/dev.env" : "./env/prod.env"
 });
 
-const app = express();
+const app = createExpressServer({
+	defaultErrorHandler: false,
+	controllers: [WelcomeController],
+	middlewares: [HandleErros]
+});
 
 app.use(express.static("../public"));
 
@@ -41,11 +49,17 @@ app.use(bodyParser.json());
 
 if (environment !== "prod") app.use(morgan("dev"));
 
-app.use("/", modules.welcome.routes);
-
-app.use(handleErros.notFound);
-
-app.use(handleErros.catchAllErros);
+app.use((request: any, response: any, next: any) => {
+	if (response.statusMessage === undefined)
+		return response.status(404).json({
+			status: 404,
+			erros: [
+				{
+					msg: `Nenhuma rota encontrada para ${request.path}`
+				}
+			]
+		});
+});
 
 mongoose.connect(`${process.env.DATABASE}`, { useNewUrlParser: true });
 
@@ -54,5 +68,11 @@ mongoose.Promise = global.Promise;
 mongoose.connection.on("error", err => {
 	console.error(`🙅 🚫 → ${err.message}`);
 });
+
+import Welcome from 'app/modules/welcome/models/Welcome';
+
+// Registrando modulos.
+
+Welcome.model
 
 export default app;
