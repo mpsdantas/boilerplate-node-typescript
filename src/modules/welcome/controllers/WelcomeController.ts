@@ -10,42 +10,39 @@ import {
 
 import { Request, Response } from "express";
 
-import Welcome from '../models/Welcome';
+import Welcome from "../models/Welcome";
 
-import Transaction from 'mongoose-transactions-typescript';
+import GenericController from "app/core/generics/GenericController";
 
 @Controller("/welcome")
-export class WelcomeController{
+export class WelcomeController extends GenericController {
 	
-	@Get("/")
-	public index: any = (req: Request, res: Response, next: any) => {
-		return {
-			status: true,
-			msg:
-				"Bem vindo ao boilerplate de aplicações Node.js com Typescript desenvolvido por Marcus Dantas"
-		};
-	};
+	constructor() {
+		super(Welcome);
+	}
 
-	@Post("/save")
-	public save: any = async (req: Request, res: Response, next: any) => {
-		
-		const transaction = new Transaction();
+	@Post('/')
+	async create(req: Request, res: Response, next: any) {
+		return super.create(req, res, next);
+	}
 
-		try {
-			const idWelcome1 = transaction.insert('Welcome', {mensagem: 'adada', assunto: "asdasd"});
-			const idWelcome2 = transaction.insert('Welcome', {mensagem: 'a121dada'});
+	@Put("/:id")
+	async update(req: Request, res: Response, next: any) {
+		return super.update(req, res, next);
+	}
 
-			const final = await transaction.run()
-			
-		} catch (exception) {
-			const rollbackObj = await transaction.rollback().catch(console.error)
-			transaction.clean()  
-			throw exception.error;
-		}
+	@Get('/')
+	async getAll(req: Request, res: Response, next: any) {
+		return super.getAll(req, res, next);
+	}
 
-		return {
-			status: true,
-			msg: "Objeto salvo com sucesso."
-		};
-	};
+	@Get("/:id")
+	async getById(req: Request, res: Response, next: any) {
+		return super.getById(req, res, next);
+	}
+
+	@Delete("/:id")
+	async remove(req: Request, res: Response, next: any) {
+		return super.remove(req, res, next);
+	}
 }

@@ -1,10 +1,8 @@
 import app from "./config/app";
 
-import os from 'os';
+import os from "os";
 
 app.listen(process.env.PORT, () => {
-	let environment: string = process.argv[2];
-
 	console.log(`
 	▒█▄░▒█ █▀▀█ █▀▀▄ █▀▀ ░░▀ █▀▀ 
 	▒█▒█▒█ █░░█ █░░█ █▀▀ ░░█ ▀▀█ 
@@ -15,7 +13,7 @@ app.listen(process.env.PORT, () => {
 		`\n➡➡ The server is online: http://${os.hostname()}:${
 			process.env.PORT
 		}/, OS: ${os.type()} ${os.release()}. Environment: ${
-			environment !== "prod" ? "dev" : "prod"
+			process.env.NODE_ENV
 		}, with Node.js v${process.versions.node}.`
 	);
 });

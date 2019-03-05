@@ -13,13 +13,14 @@ import {
 	ExpressErrorMiddlewareInterface
 } from "routing-controllers";
 
-import moment from 'moment';
+import moment from "moment";
 
-import 'moment/locale/pt-br';
+import "moment/locale/pt-br";
 
 @Middleware({ type: "after" })
 export class HandleErros implements ExpressErrorMiddlewareInterface {
 	error(error: any, request: any, response: any, next: (err: any) => any) {
+		console.log(error);
 		HandleErros.catchAllErros(error, request, response, next);
 	}
 
@@ -33,7 +34,9 @@ export class HandleErros implements ExpressErrorMiddlewareInterface {
 
 		log.error(
 			`| ROTA: ${req.path} | Exception: `,
-			`${err.message === undefined || err.message === null ? err : err.message}`,
+			`${
+				err.message === undefined || err.message === null ? err : err.message
+			}`,
 			" | criado em: ",
 			`${moment().format("LLLL[.]")}`
 		);
@@ -74,6 +77,15 @@ export class HandleErros implements ExpressErrorMiddlewareInterface {
 					erros: [
 						{
 							msg: `O ${campo} já foi utilizado por outro usuário, tente utilizar outro valor diferente de ${dup_key}`
+						}
+					]
+				});
+			} else if (err instanceof Error) {
+				return res.status(500).json({
+					status: 500,
+					erros: [
+						{
+							msg: err.message
 						}
 					]
 				});

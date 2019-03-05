@@ -14,7 +14,7 @@ import morgan from "morgan";
 
 import mongoose from "mongoose";
 
-import { HandleErros } from "app/architecture/erros/HandleErros";
+import { HandleErros } from "app/core/erros/HandleErros";
 
 import { WelcomeController } from "modules/welcome/controllers/WelcomeController";
 
@@ -35,6 +35,7 @@ env.config({
 	path: environment !== "prod" ? "./env/dev.env" : "./env/prod.env"
 });
 
+
 const app = createExpressServer({
 	defaultErrorHandler: false,
 	controllers: [WelcomeController],
@@ -46,6 +47,8 @@ app.use(express.static("../public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(bodyParser.json());
+
+app.set('environment', environment); 
 
 if (environment !== "prod") app.use(morgan("dev"));
 

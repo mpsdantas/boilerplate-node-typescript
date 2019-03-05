@@ -10,3 +10,11 @@ Use mongoose.model(name, schema) | criado em: Segunda-feira, 4 de Março de 2019
 2019-03-04 18:04:30.475 ERROR | ROTA: /welcome/save | Exception: Welcome validation failed: assunto: O campo assunto é obrigatório | criado em: Segunda-feira, 4 de Março de 2019 às 18:04. 
 2019-03-05 10:10:02.784 ERROR | ROTA: /welcome/save | Exception: Welcome validation failed: assunto: O campo assunto é obrigatório | criado em: Terça-feira, 5 de Março de 2019 às 10:10. 
 2019-03-05 10:10:19.997 ERROR | ROTA: /welcome/save | Exception: Welcome validation failed: assunto: O campo assunto é obrigatório | criado em: Terça-feira, 5 de Março de 2019 às 10:10. 
+2019-03-05 12:38:32.109 ERROR | ROTA: /welcome/save | Exception: Welcome validation failed: assunto: O campo assunto é obrigatório | criado em: Terça-feira, 5 de Março de 2019 às 12:38. 
+2019-03-05 16:12:41.240 ERROR | ROTA: /welcome/ | Exception:  | criado em: Terça-feira, 5 de Março de 2019 às 16:12. 
+2019-03-05 16:16:31.753 ERROR | ROTA: /welcome/ | Exception:  | criado em: Terça-feira, 5 de Março de 2019 às 16:16. 
+2019-03-05 16:17:21.273 ERROR | ROTA: /welcome/ | Exception:  | criado em: Terça-feira, 5 de Março de 2019 às 16:17. 
+2019-03-05 16:17:41.997 ERROR | ROTA: /welcome | Exception: Maximum call stack size exceeded | criado em: Terça-feira, 5 de Março de 2019 às 16:17. 
+2019-03-05 16:18:07.100 ERROR | ROTA: /welcome | Exception:  | criado em: Terça-feira, 5 de Março de 2019 às 16:18. 
+2019-03-05 17:39:13.644 ERROR | ROTA: /welcome | Exception: Deu merdaaaa | criado em: Terça-feira, 5 de Março de 2019 às 17:39. 
+2019-03-05 17:40:54.277 ERROR | ROTA: /welcome | Exception: Deu merdaaaa | criado em: Terça-feira, 5 de Março de 2019 às 17:40. 

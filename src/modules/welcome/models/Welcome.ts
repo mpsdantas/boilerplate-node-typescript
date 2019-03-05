@@ -1,4 +1,5 @@
-import { prop, Typegoose } from "typegoose";
+import { prop, Typegoose} from "typegoose";
+
 import mongoose from 'mongoose';
 
 class Welcome extends Typegoose {
