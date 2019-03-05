@@ -1,13 +1,3 @@
-import {
-	Controller,
-	Param,
-	Body,
-	Get,
-	Post,
-	Put,
-	Delete
-} from "routing-controllers";
-
 import mongoose from "mongoose";
 
 import { Request, Response } from "express";
