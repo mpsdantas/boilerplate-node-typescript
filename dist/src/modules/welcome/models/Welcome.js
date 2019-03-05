@@ -21,11 +21,11 @@ __decorate([
     __metadata("design:type", String)
 ], Welcome.prototype, "mensagem", void 0);
 __decorate([
-    typegoose_1.prop({ required: [true, "Esse campo é obrigatorio"] }),
+    typegoose_1.prop({ required: [true, `O campo assunto é obrigatório`] }),
     __metadata("design:type", String)
 ], Welcome.prototype, "assunto", void 0);
-const WelcomeModel = new Welcome().getModelForClass(Welcome, {
+const WelcomeRepository = new Welcome().getModelForClass(Welcome, {
     existingMongoose: mongoose_1.default,
     schemaOptions: { collection: "welcomes" }
 });
-exports.default = WelcomeModel;
+exports.default = WelcomeRepository;

@@ -1,3 +1,3 @@
-import handleErros from 'app/utils/erros/HandleErros';
+import {HandleErros} from "app/architecture/erros/HandleErros";
 
-export default handleErros;
+export default HandleErros;

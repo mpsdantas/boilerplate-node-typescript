@@ -1,4 +1,4 @@
-import "module-alias/register";
+import "./alias";
 
 import express from "express";
 
