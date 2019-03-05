@@ -14,7 +14,7 @@ import morgan from "morgan";
 
 import mongoose from "mongoose";
 
-import { HandleErros } from "src/architecture/erros/HandleErros";
+import { HandleErros } from "app/architecture/erros/HandleErros";
 
 import { WelcomeController } from "modules/welcome/controllers/WelcomeController";
 
