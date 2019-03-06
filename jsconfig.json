@@ -4,15 +4,15 @@
       "allowSyntheticDefaultImports": false,
       "baseUrl": "./",
       "paths": {
-        "controllers/*": ["src/controllers/*"],
-        "models/*": ["src/models/*"],
-        "middlewares/*": ["src/middlewares/*"],
-        "routes/*": ["src/routes/*"],
-        "app/*": ["src/*"],
-        "utils/*": ["src/utils/*"],
-        "validators/*": ["src/validators/*"],
-        "config/*": ["./config/*"],
-        "modules/*": ["src/modules"]
+        "@controllers/*": ["src/controllers/*"],
+        "@models/*": ["src/models/*"],
+        "@middlewares/*": ["src/middlewares/*"],
+        "@routes/*": ["src/routes/*"],
+        "@app/*": ["src/*"],
+        "@utils/*": ["src/utils/*"],
+        "@validators/*": ["src/validators/*"],
+        "@config/*": ["./config/*"],
+        "@modules/*": ["src/modules/*"]
       }
     },
     "exclude": ["node_modules", "dist"],

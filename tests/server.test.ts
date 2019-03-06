@@ -1,10 +1,15 @@
 import req from "supertest";
 
-import server from "config/app";
+import server from "@config/app";
 
-test("[GET] /", async () => {
-	const res = await req(server).get("/api");
-	expect(res.text).toBe(
-		'{"status":true,"msg":"Bem vindo ao boilerplate de aplicações Node.js com Typescript desenvolvido por Marcus Dantas"}'
-	);
+test("VERIFICANDO INTEGRIDADE DA HOME | [GET] /welcome", async () => {
+	const res = await req(server).get("/welcome");
+
+	expect(typeof res).toEqual("object");
+
+	expect(Object.keys(res.body).sort()).toEqual([
+		"msg",
+		"results",
+		"status"
+	]);
 });

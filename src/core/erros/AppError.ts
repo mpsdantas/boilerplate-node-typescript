@@ -1,14 +1,9 @@
 export default class AppError extends Error {
-    
-    status: number;
-    
-	constructor(message: string, status: number) {
-		super(message);
-
-		this.name = this.constructor.name;
-
-		Error.captureStackTrace(this, this.constructor);
-
-		this.status = status || 500;
+	erros: any[];
+	codeError: number;
+	constructor(erros: any[], codeError: number) {
+		super("O processamento de algumas informações não foi realizado.");
+		this.erros = erros;
+		this.codeError = codeError;
 	}
 };

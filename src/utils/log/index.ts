@@ -1,4 +1,4 @@
-import variables from 'config/variables';
+import variables from '@config/variables';
 
 const opts = {
 	logFilePath: variables.pathLog,

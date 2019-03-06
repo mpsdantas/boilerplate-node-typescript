@@ -14,9 +14,9 @@ import morgan from "morgan";
 
 import mongoose from "mongoose";
 
-import { HandleErros } from "app/core/erros/HandleErros";
+import { HandleErros } from "@app/core/erros/HandleErros";
 
-import { WelcomeController } from "modules/welcome/controllers/WelcomeController";
+import { WelcomeController } from "@modules/welcome/controllers/WelcomeController";
 
 const [major, minor] = process.versions.node.split(".").map(parseFloat);
 
@@ -72,7 +72,7 @@ mongoose.connection.on("error", err => {
 	console.error(`🙅 🚫 → ${err.message}`);
 });
 
-import Welcome from 'app/modules/welcome/models/Welcome';
+import Welcome from '@app/modules/welcome/models/Welcome';
 
 // Registrando modulos.
 

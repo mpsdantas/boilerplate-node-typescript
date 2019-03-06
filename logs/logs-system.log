@@ -1,0 +1,10 @@
+
+2019-03-05 22:14:50.791 ERROR | ROTA: /welcome | Exception: Error: O processamento de algumas informações não foi realizado. | criado em: Terça-feira, 5 de Março de 2019 às 22:14. 
+2019-03-05 22:15:10.222 ERROR | ROTA: /welcome | Exception: undefined | criado em: Terça-feira, 5 de Março de 2019 às 22:15. 
+2019-03-05 22:15:57.278 ERROR | ROTA: /welcome | Exception: O processamento de algumas informações não foi realizado.
+{"erros":[{"msg":"testes"}],"codeError":100}
+Error: O processamento de algumas informações não foi realizado.
+    at WelcomeController.testeErro (/home/marcus/Projetos/boilerplate-type-script/src/modules/welcome/controllers/WelcomeController.ts:39:9)
+    at ActionMetadata.callMethod (/home/marcus/Projetos/boilerplate-type-script/src/metadata/ActionMetadata.ts:265:48)
+    at /home/marcus/Projetos/boilerplate-type-script/src/RoutingControllers.ts:123:142
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Terça-feira, 5 de Março de 2019 às 22:15. 
