@@ -5,7 +5,7 @@ moduleAlias.addAliases({
     "@middlewares": __dirname + "/../" +"src/middlewares",
     "@models": __dirname + "/../" +"src/models",
     "@routes": __dirname + "/../" +"src/routes",
-    "@app": __dirname + "/../" +"src",
+    "@app": __dirname + "/../",
     "@utils": __dirname + "/../" +"src/utils",
     "@validators": __dirname + "/../" +"src/validators",
     "@config": __dirname + "/../" +"config",

@@ -63,7 +63,7 @@
 			"@middlewares/(.*)": "<rootDir>/src/middlewares/$1",
 			"@models/(.*)": "<rootDir>/src/models/$1",
 			"@routes/(.*)": "<rootDir>/src/routes/$1",
-			"@app/(.*)": "<rootDir>/src/$1",
+			"@app/(.*)": "<rootDir>/$1",
 			"@utils/(.*)":"<rootDir>/src/utils/$1",
 			"@validators/(.*)": "<rootDir>/src/validators/$1",
 			"@modules/(.*)": "<rootDir>/src/modules/$1"

@@ -1,7 +1,5 @@
 import {
 	Controller,
-	Param,
-	Body,
 	Get,
 	Post,
 	Put,
@@ -12,10 +10,7 @@ import { Request, Response } from "express";
 
 import Welcome from "../models/Welcome";
 
-import GenericController from "@app/core/generics/GenericController";
-
-import AppError from '../../../core/erros/AppError';
-
+import GenericController from "@app/libs/core/generics/GenericController";
 
 @Controller("/welcome")
 export class WelcomeController extends GenericController {
@@ -35,12 +30,9 @@ export class WelcomeController extends GenericController {
 	}
 
 	@Get('/')
-	public testeErro: any = (req: Request, res: Response, next: any) => {
-		throw new AppError([{msg: "testes"}], 100)
+	async getAll(req: Request, res: Response, next: any) {
+		return super.getAll(req, res, next);
 	}
-	// async getAll(req: Request, res: Response, next: any) {
-	// 	return super.getAll(req, res, next);
-	// }
 
 	@Get("/:id")
 	async getById(req: Request, res: Response, next: any) {

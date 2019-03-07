@@ -47,7 +47,7 @@
         "@models/*": ["src/models/*"],
         "@middlewares/*": ["src/middlewares/*"],
         "@routes/*": ["src/routes/*"],
-        "@app/*": ["src/*"],
+        "@app/*": ["./*"],
         "@utils/*": ["src/utils/*"],
         "@validators/*": ["src/validators/*"],
         "@config/*": ["./config/*"],
