@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 
 import AppError from "./AppError";
 
-import log from "@utils/log";
+
 
 import {
 	Middleware,
@@ -12,6 +12,8 @@ import {
 } from "routing-controllers";
 
 import moment from "moment";
+
+import log from "../../../src/utils/log";
 
 import "moment/locale/pt-br";
 

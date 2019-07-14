@@ -10,7 +10,7 @@ import { Request, Response } from "express";
 
 import Welcome from "../models/Welcome";
 
-import GenericController from "@app/libs/core/generics/GenericController";
+import GenericController from "../../../../libs/core/generics/GenericController";
 
 @Controller("/welcome")
 export class WelcomeController extends GenericController {

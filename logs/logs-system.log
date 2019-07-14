@@ -8,3 +8,20 @@ Error: O processamento de algumas informações não foi realizado.
     at ActionMetadata.callMethod (/home/marcus/Projetos/boilerplate-type-script/src/metadata/ActionMetadata.ts:265:48)
     at /home/marcus/Projetos/boilerplate-type-script/src/RoutingControllers.ts:123:142
     at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Terça-feira, 5 de Março de 2019 às 22:15. 
+2019-07-14 09:44:55.172 ERROR | ROTA: /welcome | Exception: Cannot read property 'body' of undefined
+{}
+TypeError: Cannot read property 'body' of undefined
+    at WelcomeController.<anonymous> (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/libs/core/generics/GenericController.ts:13:24)
+    at Generator.next (<anonymous>)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/libs/core/generics/GenericController.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/libs/core/generics/GenericController.ts:3:12)
+    at WelcomeController.create (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/libs/core/generics/GenericController.ts:20:16)
+    at WelcomeController.<anonymous> (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/WelcomeController.ts:24:22)
+    at Generator.next (<anonymous>)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/WelcomeController.ts:16:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/WelcomeController.ts:12:12)
+    at WelcomeController.create (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/WelcomeController.ts:34:16)
+    at ActionMetadata.callMethod (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/metadata/ActionMetadata.ts:265:48)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:123:142 | criado em: Domingo, 14 de Julho de 2019 às 09:44. 

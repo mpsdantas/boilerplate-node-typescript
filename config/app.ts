@@ -14,9 +14,10 @@ import morgan from "morgan";
 
 import mongoose from "mongoose";
 
-import { HandleErros } from "@app/libs/core/errors/HandleErros";
+import { WelcomeController } from "../src/modules/welcome/controllers/WelcomeController";
 
-import { WelcomeController } from "@modules/welcome/controllers/WelcomeController";
+import { HandleErros } from "../libs/core/errors/HandleErros";
+
 
 const [major, minor] = process.versions.node.split(".").map(parseFloat);
 
@@ -34,7 +35,6 @@ let environment: string = process.argv[2];
 env.config({
 	path: environment !== "prod" ? "./env/dev.env" : "./env/prod.env"
 });
-
 
 const app = createExpressServer({
 	defaultErrorHandler: false,
@@ -71,11 +71,5 @@ mongoose.Promise = global.Promise;
 mongoose.connection.on("error", err => {
 	console.error(`🙅 🚫 → ${err.message}`);
 });
-
-import Welcome from '@app/src/modules/welcome/models/Welcome';
-
-// Registrando modulos.
-
-Welcome.model
 
 export default app;
