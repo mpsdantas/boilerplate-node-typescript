@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 import { Request, Response } from "express";
 
-import AbstractController from "../abstracts/AbstractController";
+import AbstractController from "../abstracts/base.abstract";
 
 export default class GenericController extends AbstractController {
 	constructor(ObjectModel: mongoose.Model<InstanceType<any>>) {
@@ -10,6 +10,7 @@ export default class GenericController extends AbstractController {
 	}
 
 	async create(req: Request, res: Response, next: any) {
+		console.log(req)
 		const { body } = req.body;
 
 		//TODO: Adicionar throw com erro caso body for undefined;

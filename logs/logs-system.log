@@ -25,3 +25,128 @@ TypeError: Cannot read property 'body' of undefined
     at WelcomeController.create (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/WelcomeController.ts:34:16)
     at ActionMetadata.callMethod (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/metadata/ActionMetadata.ts:265:48)
     at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:123:142 | criado em: Domingo, 14 de Julho de 2019 às 09:44. 
+2019-07-14 11:18:05.404 ERROR | ROTA: /welcome | Exception: Cannot read property 'body' of undefined
+{}
+TypeError: Cannot read property 'body' of undefined
+    at WelcomeController.<anonymous> (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/generics/generic.controller.ts:13:24)
+    at Generator.next (<anonymous>)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/generics/generic.controller.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/generics/generic.controller.ts:3:12)
+    at WelcomeController.create (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/generics/generic.controller.ts:20:16)
+    at WelcomeController.<anonymous> (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:24:22)
+    at Generator.next (<anonymous>)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:16:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:12:12)
+    at WelcomeController.create (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:34:16)
+    at ActionMetadata.callMethod (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/metadata/ActionMetadata.ts:265:48)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:123:142 | criado em: Domingo, 14 de Julho de 2019 às 11:18. 
+2019-07-14 11:18:33.288 ERROR | ROTA: /welcome | Exception: Cannot read property 'body' of undefined
+{}
+TypeError: Cannot read property 'body' of undefined
+    at WelcomeController.<anonymous> (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/generics/generic.controller.ts:13:19)
+    at Generator.next (<anonymous>)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/generics/generic.controller.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/generics/generic.controller.ts:3:12)
+    at WelcomeController.create (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/generics/generic.controller.ts:20:16)
+    at WelcomeController.<anonymous> (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:24:22)
+    at Generator.next (<anonymous>)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:16:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:12:12)
+    at WelcomeController.create (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:34:16)
+    at ActionMetadata.callMethod (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/metadata/ActionMetadata.ts:265:48)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:123:142 | criado em: Domingo, 14 de Julho de 2019 às 11:18. 
+2019-07-14 11:18:49.529 ERROR | ROTA: /welcome | Exception: Cannot read property 'body' of undefined
+{}
+TypeError: Cannot read property 'body' of undefined
+    at WelcomeController.<anonymous> (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/generics/generic.controller.ts:14:24)
+    at Generator.next (<anonymous>)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/generics/generic.controller.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/generics/generic.controller.ts:3:12)
+    at WelcomeController.create (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/generics/generic.controller.ts:20:16)
+    at WelcomeController.<anonymous> (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:24:22)
+    at Generator.next (<anonymous>)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:16:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:12:12)
+    at WelcomeController.create (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:34:16)
+    at ActionMetadata.callMethod (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/metadata/ActionMetadata.ts:265:48)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:123:142 | criado em: Domingo, 14 de Julho de 2019 às 11:18. 
+2019-07-14 11:19:00.025 ERROR | ROTA: /welcome | Exception: Cannot read property 'body' of undefined
+{}
+TypeError: Cannot read property 'body' of undefined
+    at WelcomeController.<anonymous> (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/generics/generic.controller.ts:14:24)
+    at Generator.next (<anonymous>)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/generics/generic.controller.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/generics/generic.controller.ts:3:12)
+    at WelcomeController.create (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/generics/generic.controller.ts:20:16)
+    at WelcomeController.<anonymous> (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:24:22)
+    at Generator.next (<anonymous>)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:16:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:12:12)
+    at WelcomeController.create (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:34:16)
+    at ActionMetadata.callMethod (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/metadata/ActionMetadata.ts:265:48)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:123:142 | criado em: Domingo, 14 de Julho de 2019 às 11:19. 
+2019-07-14 11:19:44.981 ERROR | ROTA: /welcome | Exception: Cannot read property 'body' of undefined
+{}
+TypeError: Cannot read property 'body' of undefined
+    at WelcomeController.<anonymous> (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/generics/generic.controller.ts:14:24)
+    at Generator.next (<anonymous>)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/generics/generic.controller.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/generics/generic.controller.ts:3:12)
+    at WelcomeController.create (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/generics/generic.controller.ts:20:16)
+    at WelcomeController.<anonymous> (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:24:22)
+    at Generator.next (<anonymous>)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:16:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:12:12)
+    at WelcomeController.create (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:34:16)
+    at ActionMetadata.callMethod (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/metadata/ActionMetadata.ts:265:48)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:123:142 | criado em: Domingo, 14 de Julho de 2019 às 11:19. 
+2019-07-14 11:20:10.109 ERROR | ROTA: /welcome | Exception: Cannot read property 'body' of undefined
+{}
+TypeError: Cannot read property 'body' of undefined
+    at WelcomeController.<anonymous> (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:24:19)
+    at Generator.next (<anonymous>)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:16:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:12:12)
+    at WelcomeController.create (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:34:16)
+    at ActionMetadata.callMethod (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/metadata/ActionMetadata.ts:265:48)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:123:142 | criado em: Domingo, 14 de Julho de 2019 às 11:20. 
+2019-07-14 11:20:23.392 ERROR | ROTA: /welcome | Exception: Cannot read property 'body' of undefined
+{}
+TypeError: Cannot read property 'body' of undefined
+    at WelcomeController.<anonymous> (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/generics/generic.controller.ts:14:24)
+    at Generator.next (<anonymous>)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/generics/generic.controller.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/generics/generic.controller.ts:3:12)
+    at WelcomeController.create (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/generics/generic.controller.ts:20:16)
+    at WelcomeController.<anonymous> (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:25:22)
+    at Generator.next (<anonymous>)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:16:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:12:12)
+    at WelcomeController.create (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:34:16)
+    at ActionMetadata.callMethod (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/metadata/ActionMetadata.ts:265:48)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:123:142 | criado em: Domingo, 14 de Julho de 2019 às 11:20. 
+2019-07-14 12:01:16.201 ERROR | ROTA: /welcome | Exception: CUCUCUCUCU
+{}
+Error: CUCUCUCUCU
+    at WelcomeController.<anonymous> (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:27:11)
+    at Generator.next (<anonymous>)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:19:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:15:12)
+    at WelcomeController.create (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:30:16)
+    at ActionMetadata.callMethod (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/metadata/ActionMetadata.ts:265:48)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:123:142
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Domingo, 14 de Julho de 2019 às 12:01. 

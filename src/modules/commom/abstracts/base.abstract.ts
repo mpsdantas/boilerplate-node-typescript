@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-import InterfaceController from "../../../src/modules/commom/interfaces/base.interface";
+import InterfaceController from "../interfaces/base.interface";
 
 import { Request, Response } from "express";
 

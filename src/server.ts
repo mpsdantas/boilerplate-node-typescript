@@ -1,6 +1,5 @@
-import app from "./config/app";
-
 import os from "os";
+import app from "./modules/commom/config/app.config";
 
 app.listen(process.env.PORT, () => {
 	console.log(`

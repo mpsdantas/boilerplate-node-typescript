@@ -10,9 +10,9 @@ class Welcome extends Typegoose {
 	assunto?: string;
 }
 
-const WelcomeRepository = new Welcome().getModelForClass(Welcome, {
+const WelcomeModel = new Welcome().getModelForClass(Welcome, {
 	existingMongoose: mongoose,
     schemaOptions: { collection: "welcomes" }
 });
 
-export default WelcomeRepository;
+export default WelcomeModel;

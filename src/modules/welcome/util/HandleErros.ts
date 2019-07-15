@@ -1,3 +1,3 @@
-import { HandleErros } from "../../../../libs/core/errors/HandleErros";
+import { HandleErros } from "../../commom/errors/handle.error";
 
 export default HandleErros;

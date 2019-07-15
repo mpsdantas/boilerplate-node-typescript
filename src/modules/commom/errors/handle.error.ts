@@ -2,9 +2,7 @@ import { Request, Response } from "express";
 
 import mongoose from "mongoose";
 
-import AppError from "./AppError";
-
-
+import AppError from "./app.error";
 
 import {
 	Middleware,
@@ -13,7 +11,7 @@ import {
 
 import moment from "moment";
 
-import log from "../../../src/utils/log";
+import log from "../utils/log.util";
 
 import "moment/locale/pt-br";
 
