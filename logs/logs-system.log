@@ -150,3 +150,437 @@ Error: CUCUCUCUCU
     at ActionMetadata.callMethod (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/metadata/ActionMetadata.ts:265:48)
     at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:123:142
     at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Domingo, 14 de Julho de 2019 às 12:01. 
+2019-07-14 22:34:24.747 ERROR | ROTA: /welcome | Exception: Welcome validation failed: assunto: O campo assunto é obrigatório
+{"errors":{"assunto":{"message":"O campo assunto é obrigatório","name":"ValidatorError","properties":{"message":"O campo assunto é obrigatório","type":"required","path":"assunto"},"kind":"required","path":"assunto"}},"_message":"Welcome validation failed","message":"Welcome validation failed: assunto: O campo assunto é obrigatório","name":"ValidationError"}
+ValidationError: Welcome validation failed: assunto: O campo assunto é obrigatório
+    at new ValidationError (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/error/validation.js:30:11)
+    at model.Document.invalidate (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/document.js:2080:32)
+    at p.doValidate.skipSchemaValidators (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/document.js:1943:17)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/schematype.js:933:9
+    at process._tickCallback (internal/process/next_tick.js:61:11) | criado em: Domingo, 14 de Julho de 2019 às 22:34. 
+2019-07-14 22:34:44.403 ERROR | ROTA: /welcome | Exception: callback is not a function
+{}
+TypeError: callback is not a function
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:138:14
+    at Array.map (<anonymous>)
+    at ctor.map (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:137:29)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:124:47)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at ClassTransformer.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/ClassTransformer.ts:21:25)
+    at Object.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/index.ts:17:29)
+    at ExpressDriver.BaseDriver.transformResult (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/BaseDriver.ts:143:22)
+    at ExpressDriver.handleSuccess (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/express/ExpressDriver.ts:248:23)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:161:45
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Domingo, 14 de Julho de 2019 às 22:34. 
+2019-07-14 22:35:22.889 ERROR | ROTA: /welcome | Exception: callback is not a function
+{}
+TypeError: callback is not a function
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:138:14
+    at Array.map (<anonymous>)
+    at ctor.map (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:137:29)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:124:47)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at ClassTransformer.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/ClassTransformer.ts:21:25)
+    at Object.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/index.ts:17:29)
+    at ExpressDriver.BaseDriver.transformResult (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/BaseDriver.ts:143:22)
+    at ExpressDriver.handleSuccess (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/express/ExpressDriver.ts:248:23)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:161:45
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Domingo, 14 de Julho de 2019 às 22:35. 
+2019-07-14 22:35:24.314 ERROR | ROTA: /welcome | Exception: callback is not a function
+{}
+TypeError: callback is not a function
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:138:14
+    at Array.map (<anonymous>)
+    at ctor.map (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:137:29)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:124:47)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at ClassTransformer.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/ClassTransformer.ts:21:25)
+    at Object.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/index.ts:17:29)
+    at ExpressDriver.BaseDriver.transformResult (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/BaseDriver.ts:143:22)
+    at ExpressDriver.handleSuccess (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/express/ExpressDriver.ts:248:23)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:161:45
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Domingo, 14 de Julho de 2019 às 22:35. 
+2019-07-14 22:35:45.796 ERROR | ROTA: /welcome | Exception: callback is not a function
+{}
+TypeError: callback is not a function
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:138:14
+    at Array.map (<anonymous>)
+    at ctor.map (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:137:29)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:124:47)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at ClassTransformer.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/ClassTransformer.ts:21:25)
+    at Object.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/index.ts:17:29)
+    at ExpressDriver.BaseDriver.transformResult (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/BaseDriver.ts:143:22)
+    at ExpressDriver.handleSuccess (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/express/ExpressDriver.ts:248:23)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:161:45
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Domingo, 14 de Julho de 2019 às 22:35. 
+2019-07-14 22:37:01.439 ERROR | ROTA: /welcome | Exception: callback is not a function
+{}
+TypeError: callback is not a function
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:138:14
+    at Array.map (<anonymous>)
+    at ctor.map (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:137:29)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:124:47)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at ClassTransformer.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/ClassTransformer.ts:21:25)
+    at Object.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/index.ts:17:29)
+    at ExpressDriver.BaseDriver.transformResult (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/BaseDriver.ts:143:22)
+    at ExpressDriver.handleSuccess (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/express/ExpressDriver.ts:248:23)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:161:45
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Domingo, 14 de Julho de 2019 às 22:37. 
+2019-07-14 22:38:10.405 ERROR | ROTA: /welcome | Exception: callback is not a function
+{}
+TypeError: callback is not a function
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:138:14
+    at Array.map (<anonymous>)
+    at ctor.map (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:137:29)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:124:47)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at ClassTransformer.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/ClassTransformer.ts:21:25)
+    at Object.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/index.ts:17:29)
+    at ExpressDriver.BaseDriver.transformResult (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/BaseDriver.ts:143:22)
+    at ExpressDriver.handleSuccess (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/express/ExpressDriver.ts:248:23)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:161:45
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Domingo, 14 de Julho de 2019 às 22:38. 
+2019-07-14 22:40:04.180 ERROR | ROTA: /welcome | Exception: callback is not a function
+{}
+TypeError: callback is not a function
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:138:14
+    at Array.map (<anonymous>)
+    at ctor.map (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:137:29)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:124:47)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at ClassTransformer.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/ClassTransformer.ts:21:25)
+    at Object.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/index.ts:17:29)
+    at ExpressDriver.BaseDriver.transformResult (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/BaseDriver.ts:143:22)
+    at ExpressDriver.handleSuccess (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/express/ExpressDriver.ts:248:23)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:161:45
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Domingo, 14 de Julho de 2019 às 22:40. 
+2019-07-14 22:41:20.346 ERROR | ROTA: /welcome | Exception: callback is not a function
+{}
+TypeError: callback is not a function
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:138:14
+    at Array.map (<anonymous>)
+    at ctor.map (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:137:29)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:124:47)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at ClassTransformer.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/ClassTransformer.ts:21:25)
+    at Object.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/index.ts:17:29)
+    at ExpressDriver.BaseDriver.transformResult (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/BaseDriver.ts:143:22)
+    at ExpressDriver.handleSuccess (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/express/ExpressDriver.ts:248:23)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:161:45
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Domingo, 14 de Julho de 2019 às 22:41. 
+2019-07-14 22:44:32.751 ERROR | ROTA: /welcome | Exception: callback is not a function
+{}
+TypeError: callback is not a function
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:138:14
+    at Array.map (<anonymous>)
+    at ctor.map (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:137:29)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:124:47)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at ClassTransformer.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/ClassTransformer.ts:21:25)
+    at Object.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/index.ts:17:29)
+    at ExpressDriver.BaseDriver.transformResult (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/BaseDriver.ts:143:22)
+    at ExpressDriver.handleSuccess (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/express/ExpressDriver.ts:248:23)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:161:45
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Domingo, 14 de Julho de 2019 às 22:44. 
+2019-07-14 22:46:45.279 ERROR | ROTA: /welcome | Exception: callback is not a function
+{}
+TypeError: callback is not a function
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:138:14
+    at Array.map (<anonymous>)
+    at ctor.map (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:137:29)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:124:47)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at ClassTransformer.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/ClassTransformer.ts:21:25)
+    at Object.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/index.ts:17:29)
+    at ExpressDriver.BaseDriver.transformResult (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/BaseDriver.ts:143:22)
+    at ExpressDriver.handleSuccess (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/express/ExpressDriver.ts:248:23)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:161:45
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Domingo, 14 de Julho de 2019 às 22:46. 
+2019-07-14 22:46:47.517 ERROR | ROTA: /welcome | Exception: callback is not a function
+{}
+TypeError: callback is not a function
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:138:14
+    at Array.map (<anonymous>)
+    at ctor.map (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:137:29)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:124:47)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at ClassTransformer.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/ClassTransformer.ts:21:25)
+    at Object.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/index.ts:17:29)
+    at ExpressDriver.BaseDriver.transformResult (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/BaseDriver.ts:143:22)
+    at ExpressDriver.handleSuccess (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/express/ExpressDriver.ts:248:23)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:161:45
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Domingo, 14 de Julho de 2019 às 22:46. 
+2019-07-14 22:47:49.949 ERROR | ROTA: /welcome | Exception: callback is not a function
+{}
+TypeError: callback is not a function
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:138:14
+    at Array.map (<anonymous>)
+    at ctor.map (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:137:29)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:124:47)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at ClassTransformer.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/ClassTransformer.ts:21:25)
+    at Object.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/index.ts:17:29)
+    at ExpressDriver.BaseDriver.transformResult (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/BaseDriver.ts:143:22)
+    at ExpressDriver.handleSuccess (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/express/ExpressDriver.ts:248:23)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:161:45
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Domingo, 14 de Julho de 2019 às 22:47. 
+2019-07-14 22:49:47.395 ERROR | ROTA: /welcome | Exception: callback is not a function
+{}
+TypeError: callback is not a function
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:138:14
+    at Array.map (<anonymous>)
+    at ctor.map (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:137:29)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:124:47)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at ClassTransformer.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/ClassTransformer.ts:21:25)
+    at Object.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/index.ts:17:29)
+    at ExpressDriver.BaseDriver.transformResult (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/BaseDriver.ts:143:22)
+    at ExpressDriver.handleSuccess (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/express/ExpressDriver.ts:248:23)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:161:45
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Domingo, 14 de Julho de 2019 às 22:49. 
+2019-07-14 22:50:52.728 ERROR | ROTA: /welcome | Exception: callback is not a function
+{}
+TypeError: callback is not a function
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:138:14
+    at Array.map (<anonymous>)
+    at ctor.map (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:137:29)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:124:47)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at ClassTransformer.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/ClassTransformer.ts:21:25)
+    at Object.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/index.ts:17:29)
+    at ExpressDriver.BaseDriver.transformResult (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/BaseDriver.ts:143:22)
+    at ExpressDriver.handleSuccess (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/express/ExpressDriver.ts:248:23)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:161:45
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Domingo, 14 de Julho de 2019 às 22:50. 
+2019-07-14 22:51:43.728 ERROR | ROTA: /welcome | Exception: callback is not a function
+{}
+TypeError: callback is not a function
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:138:14
+    at Array.map (<anonymous>)
+    at ctor.map (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:137:29)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:124:47)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at ClassTransformer.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/ClassTransformer.ts:21:25)
+    at Object.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/index.ts:17:29)
+    at ExpressDriver.BaseDriver.transformResult (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/BaseDriver.ts:143:22)
+    at ExpressDriver.handleSuccess (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/express/ExpressDriver.ts:248:23)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:161:45
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Domingo, 14 de Julho de 2019 às 22:51. 
+2019-07-14 22:54:48.765 ERROR | ROTA: /welcome | Exception: callback is not a function
+{}
+TypeError: callback is not a function
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:138:14
+    at Array.map (<anonymous>)
+    at ctor.map (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:137:29)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:124:47)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at ClassTransformer.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/ClassTransformer.ts:21:25)
+    at Object.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/index.ts:17:29)
+    at ExpressDriver.BaseDriver.transformResult (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/BaseDriver.ts:143:22)
+    at ExpressDriver.handleSuccess (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/express/ExpressDriver.ts:248:23)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:161:45
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Domingo, 14 de Julho de 2019 às 22:54. 
+2019-07-14 22:56:01.437 ERROR | ROTA: /welcome | Exception: callback is not a function
+{}
+TypeError: callback is not a function
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:138:14
+    at Array.map (<anonymous>)
+    at ctor.map (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:137:29)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:124:47)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at ClassTransformer.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/ClassTransformer.ts:21:25)
+    at Object.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/index.ts:17:29)
+    at ExpressDriver.BaseDriver.transformResult (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/BaseDriver.ts:143:22)
+    at ExpressDriver.handleSuccess (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/express/ExpressDriver.ts:248:23)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:161:45
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Domingo, 14 de Julho de 2019 às 22:56. 
+2019-07-14 23:02:45.942 ERROR | ROTA: /welcome | Exception: callback is not a function
+{}
+TypeError: callback is not a function
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:138:14
+    at Array.map (<anonymous>)
+    at ctor.map (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:137:29)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:124:47)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at ClassTransformer.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/ClassTransformer.ts:21:25)
+    at Object.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/index.ts:17:29)
+    at ExpressDriver.BaseDriver.transformResult (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/BaseDriver.ts:143:22)
+    at ExpressDriver.handleSuccess (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/express/ExpressDriver.ts:248:23)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:161:45
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Domingo, 14 de Julho de 2019 às 23:02. 
+2019-07-14 23:06:51.648 ERROR | ROTA: /welcome | Exception: Converting circular structure to JSON
+{}
+TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at args.map.a (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/decorators/apiResponse.decorator.ts:13:39)
+    at Array.map (<anonymous>)
+    at WelcomeController.ApiResponse.propertyDesciptor.value (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/decorators/apiResponse.decorator.ts:13:25)
+    at ActionMetadata.callMethod (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/metadata/ActionMetadata.ts:265:48)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:123:142
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Domingo, 14 de Julho de 2019 às 23:06. 
+2019-07-14 23:10:22.508 ERROR | ROTA: /welcome | Exception: callback is not a function
+{}
+TypeError: callback is not a function
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:138:14
+    at Array.map (<anonymous>)
+    at ctor.map (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:137:29)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:124:47)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at ClassTransformer.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/ClassTransformer.ts:21:25)
+    at Object.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/index.ts:17:29)
+    at ExpressDriver.BaseDriver.transformResult (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/BaseDriver.ts:143:22)
+    at ExpressDriver.handleSuccess (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/express/ExpressDriver.ts:248:23)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:161:45
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Domingo, 14 de Julho de 2019 às 23:10. 
+2019-07-14 23:13:16.450 ERROR | ROTA: /welcome | Exception: callback is not a function
+{}
+TypeError: callback is not a function
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:138:14
+    at Array.map (<anonymous>)
+    at ctor.map (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:137:29)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:124:47)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at ClassTransformer.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/ClassTransformer.ts:21:25)
+    at Object.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/index.ts:17:29)
+    at ExpressDriver.BaseDriver.transformResult (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/BaseDriver.ts:143:22)
+    at ExpressDriver.handleSuccess (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/express/ExpressDriver.ts:248:23)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:161:45
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Domingo, 14 de Julho de 2019 às 23:13. 
+2019-07-14 23:13:50.377 ERROR | ROTA: /welcome | Exception: callback is not a function
+{}
+TypeError: callback is not a function
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:138:14
+    at Array.map (<anonymous>)
+    at ctor.map (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/statemachine.js:137:29)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:124:47)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at _loop_1 (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/TransformOperationExecutor.ts:167:43)
+    at TransformOperationExecutor.transform (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/class-transformer/TransformOperationExecutor.js:178:17)
+    at ClassTransformer.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/ClassTransformer.ts:21:25)
+    at Object.classToPlain (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/index.ts:17:29)
+    at ExpressDriver.BaseDriver.transformResult (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/BaseDriver.ts:143:22)
+    at ExpressDriver.handleSuccess (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/driver/express/ExpressDriver.ts:248:23)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:161:45
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Domingo, 14 de Julho de 2019 às 23:13. 
+2019-07-14 23:32:38.634 ERROR | ROTA: /welcome | Exception: sdasd
+{}
+Error: sdasd
+    at WelcomeController.create (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/welcome/controllers/welcome.controller.ts:21:11)
+    at WelcomeController.<anonymous> (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/decorators/apiResponse.decorator.ts:8:39)
+    at Generator.next (<anonymous>)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/decorators/apiResponse.decorator.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/decorators/apiResponse.decorator.ts:3:12)
+    at WelcomeController.ApiResponse.propertyDesciptor.value (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/decorators/apiResponse.decorator.ts:14:16)
+    at ActionMetadata.callMethod (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/metadata/ActionMetadata.ts:265:48)
+    at /Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/RoutingControllers.ts:123:142
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Domingo, 14 de Julho de 2019 às 23:32. 
+2019-07-15 00:06:24.961 ERROR | ROTA: /welcome | Exception: Unexpected token _ in JSON at position 3
+{}
+SyntaxError: Unexpected token _ in JSON at position 3
+    at JSON.parse (<anonymous>)
+    at WelcomeController.<anonymous> (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/decorators/apiResponse.decorator.ts:11:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/decorators/apiResponse.decorator.ts:4:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Segunda-feira, 15 de Julho de 2019 às 00:06. 
+2019-07-15 00:06:41.406 ERROR | ROTA: /welcome | Exception: Unexpected token _ in JSON at position 2
+{}
+SyntaxError: Unexpected token _ in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at WelcomeController.<anonymous> (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/decorators/apiResponse.decorator.ts:11:19)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/src/modules/commom/decorators/apiResponse.decorator.ts:4:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7) | criado em: Segunda-feira, 15 de Julho de 2019 às 00:06. 
+2019-07-15 00:31:12.602 ERROR | ROTA: /welcome | Exception: document must have an _id before saving
+{"message":"document must have an _id before saving","name":"MongooseError"}
+MongooseError: document must have an _id before saving
+    at new MongooseError (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/error/mongooseError.js:14:11)
+    at Timeout._onTimeout (/Users/mpsdantas/Documents/projetos/boilerplate-node-typescript/node_modules/mongoose/lib/model.js:257:18)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10) | criado em: Segunda-feira, 15 de Julho de 2019 às 00:31. 

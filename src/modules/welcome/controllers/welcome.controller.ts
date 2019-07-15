@@ -1,49 +1,34 @@
-import "reflect-metadata";
-import {
-  Controller,
-  Get,
-  Post,
-  Put,
-  Delete,
-  JsonController,
-  Req,
-  Res
-} from "routing-controllers";
-
 import { Request, Response } from "express";
-
-import Welcome from "../models/welcome.model";
-
-import GenericController from "../../commom/generics/generic.controller";
+import { Controller, Delete, Get, Post, Put, Req, Res } from "routing-controllers";
+import { Welcome } from "../models/welcome.model";
+import { WelcomeService } from "../services/welcome.service";
 
 @Controller("/welcome")
 export class WelcomeController {
-  // constructor() {
-  // 	super(Welcome);
-  // }
-
+  private welcomeService = new WelcomeService();
+  
   @Post("/")
   async create(@Req() req: any, @Res() res: any) {
-    throw new Error("CUCUCUCUCU");
+    return this.welcomeService.create(req.body);
   }
 
-  // @Put("/:id")
-  // async update(req: Request, res: Response, next: any) {
-  // 	return super.update(req, res, next);
-  // }
+  @Put("/:id")
+  async update(req: Request, res: Response, next: any) {
+    return this.welcomeService.update(req.body.id, req.body);
+  }
 
-  // @Get('/')
-  // async getAll(req: Request, res: Response, next: any) {
-  // 	return super.getAll(req, res, next);
-  // }
+  @Get("/")
+  async getAll(req: Request, res: Response, next: any): Promise<Welcome[]>{
+    return this.welcomeService.findAll();
+  }
 
-  // @Get("/:id")
-  // async getById(req: Request, res: Response, next: any) {
-  // 	return super.getById(req, res, next);
-  // }
+  @Get("/:id")
+  async getById(req: Request, res: Response, next: any) {
+    return this.welcomeService.findById(req.body.id);
+  }
 
-  // @Delete("/:id")
-  // async remove(req: Request, res: Response, next: any) {
-  // 	return super.remove(req, res, next);
-  // }
+  @Delete("/:id")
+  async remove(req: Request, res: Response, next: any) {
+    return this.welcomeService.delete(req.body.id);
+  }
 }

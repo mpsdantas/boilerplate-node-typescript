@@ -1,23 +1,12 @@
-import express from "express";
-
 import "reflect-metadata";
-
-import { createExpressServer, useExpressServer } from "routing-controllers";
-
-import env from "dotenv";
-
 import bodyParser from "body-parser";
-
-import morgan from "morgan";
-
+import env from "dotenv";
+import express from "express";
 import mongoose from "mongoose";
-
-import { extractModules } from "../utils/extractModules.util";
-
+import { useExpressServer } from "routing-controllers";
 import { Modules } from "../../app.module";
-
 import { HandleErros } from "../errors/handle.error";
-import { WelcomeController } from "../../welcome/controllers/welcome.controller";
+import { extractModules } from "../utils/extractModules.util";
 
 const [major, minor] = process.versions.node.split(".").map(parseFloat);
 
@@ -40,22 +29,14 @@ const { controllers, middlewares, models } = extractModules(Modules);
 
 const app = express();
 
-
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 useExpressServer(app, {
   defaultErrorHandler: false,
   controllers: controllers,
-  middlewares: [HandleErros, ...middlewares] 
-});
-
-mongoose.connect(`${process.env.DATABASE}`, { useNewUrlParser: true });
-
-mongoose.Promise = global.Promise;
-
-mongoose.connection.on("error", err => {
-  console.error(`🙅 🚫 → ${err.message}`);
+  middlewares: [HandleErros, ...middlewares],
+  classTransformer: false,
 });
 
 app.use((request: any, response: any, next: any) => {
@@ -68,6 +49,14 @@ app.use((request: any, response: any, next: any) => {
         }
       ]
     });
+});
+
+mongoose.connect(`${process.env.DATABASE}`, { useNewUrlParser: true });
+
+mongoose.Promise = global.Promise;
+
+mongoose.connection.on("error", err => {
+  console.error(`🙅 🚫 → ${err.message}`);
 });
 
 export default app;
