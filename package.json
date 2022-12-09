@@ -25,7 +25,7 @@
 		"consign": "0.1.6",
 		"copyfiles": "^2.1.0",
 		"dotenv": "6.2.0",
-		"express": "4.16.4",
+		"express": "4.17.3",
 		"jest": "24.1.0",
 		"moment": "2.24.0",
 		"mongoose": "5.4.17",
